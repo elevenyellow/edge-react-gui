@@ -1,6 +1,7 @@
 // @flow
 
 import changellyFullLogo from './exchange_logo_changelly.png'
+import sideshiftFullLogo from './exchange_logo_sideshift.png'
 import changenowFullLogo from './exchange_logo_changenow.png'
 import coinswitchFullLogo from './exchange_logo_coinswitch.png'
 import faastFullLogo from './exchange_logo_faast.png'
@@ -9,6 +10,7 @@ import godexFullLogo from './exchange_logo_godex.png'
 import shapeshiftFullLogo from './exchange_logo_shapeshift.png'
 import totleFullLogo from './exchange_logo_totle.png'
 import changellyLogo from './settingsExchangeChangelly.png'
+import sideshiftLogo from './settingsExchangeSideshift.png'
 import changenowLogo from './settingsExchangeChangenow.png'
 import coinswitchLogo from './settingsExchangeCoinswitch.png'
 import defaultLogo from './settingsExchangeDefault.png'
@@ -26,6 +28,7 @@ export function getSwapPluginIcon (pluginId: string) {
 // Small icons for the settings:
 export const swapPluginIcons = {
   changelly: changellyLogo,
+  sideshift: sideshiftLogo,
   changenow: changenowLogo,
   coinswitch: coinswitchLogo,
   faast: faastLogo,
@@ -38,6 +41,7 @@ export const swapPluginIcons = {
 // Big logos for the quote scene:
 export const swapPluginLogos = {
   changelly: changellyFullLogo,
+  sideshift: sideshiftFullLogo,
   changenow: changenowFullLogo,
   coinswitch: coinswitchFullLogo,
   faast: faastFullLogo,

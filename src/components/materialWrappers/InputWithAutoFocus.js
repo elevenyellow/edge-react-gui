@@ -112,7 +112,7 @@ class InputWithAutoFocus extends Component<Props, State> {
         maxLength={this.props.maxLength}
         autoFocus={this.props.autoFocus}
         numberOfLines={this.props.numberOfLines}
-        multiline={true}
+        multiline={this.props.multiline}
         autoCorrect={autoCorrect}
       />
     )

@@ -51,6 +51,8 @@ export type DeepLink =
 export function parseDeepLink (uri: string): DeepLink {
   const url = new URL(uri, true)
 
+  // translage https://deep.edge.app/x to edge://x
+
   // Check for edge login links:
   if ((url.protocol === 'edge:' && url.host === 'edge') || (url.protocol === 'airbitz:' && url.host === 'edge')) {
     return { type: 'edgeLogin', lobbyId: url.pathname.slice(1) }

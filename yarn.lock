@@ -4150,9 +4150,9 @@ edge-login-ui-rn@0.6.7:
   version "0.0.1"
   resolved "https://github.com/EdgeApp/edge-plugin-bity.git#67450e6783f517ec643e99272dc962bc23f6a8f2"
 
-"edge-plugin-simplex@https://github.com/Airbitz/edge-plugin-simplex.git#29163e3":
+"edge-plugin-simplex@https://github.com/EdgeApp/edge-plugin-simplex.git#tracking":
   version "0.0.3"
-  resolved "https://github.com/Airbitz/edge-plugin-simplex.git#29163e3dd26a096913c7a36d8cd0da9fa6994b34"
+  resolved "https://github.com/EdgeApp/edge-plugin-simplex.git#15bbc137dbb12357b1f81123d4ea4aa51507dad2"
   dependencies:
     moment "^2.22.2"
 

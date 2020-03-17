@@ -8,7 +8,7 @@ import { Bridge, onMethod } from 'yaob'
 
 import { setPluginScene } from '../../modules/UI/scenes/Plugins/BackButton.js'
 import { EdgeProvider } from '../../modules/UI/scenes/Plugins/EdgeProvider.js'
-import type { Dispatch, State } from '../../types/reduxTypes.js'
+import type { Dispatch, State as ReduxState } from '../../types/reduxTypes.js'
 import { type BuySellPlugin, type PluginUrlMap } from '../../types/types.js'
 import { javascript } from '../../util/bridge/injectThisInWebView.js'
 import { SceneWrapper } from '../common/SceneWrapper.js'
@@ -108,14 +108,18 @@ function makeOuterWebViewBridge<Root> (onRoot: (root: Root) => mixed, debug: boo
 type Props = {
   dispatch: Dispatch,
   plugin: BuySellPlugin & PluginUrlMap,
-  state: State
+  state: ReduxState
+}
+
+type State = {
+  webViewKey: number
 }
 
 type PluginWorkerApi = {
   setEdgeProvider(provider: EdgeProvider): Promise<mixed>
 }
 
-class PluginView extends React.Component<Props> {
+class PluginView extends React.Component<Props, State> {
   _callbacks: WebViewCallbacks
   _canGoBack: boolean
   _edgeProvider: EdgeProvider
@@ -129,7 +133,7 @@ class PluginView extends React.Component<Props> {
     const { dispatch, plugin, state } = this.props
 
     // Set up the EdgeProvider:
-    this._edgeProvider = new EdgeProvider(plugin, state, dispatch)
+    this._edgeProvider = new EdgeProvider(plugin, state, dispatch, this.restartPlugin)
 
     // Set up the WebView bridge:
     this._canGoBack = false
@@ -146,6 +150,8 @@ class PluginView extends React.Component<Props> {
       this._webview = element
       setRef(element)
     }
+
+    this.state = { webViewKey: 0 }
   }
 
   componentDidUpdate () {
@@ -175,6 +181,11 @@ class PluginView extends React.Component<Props> {
     this._canGoBack = event.canGoBack
   }
 
+  restartPlugin = () => {
+    // Modify the WebView key which triggers the recreation of the component
+    this.setState({ webViewKey: this.state.webViewKey + 1 })
+  }
+
   render () {
     const { uri, addOnUrl = '', originWhitelist = ['file://*', 'https://*', 'http://*', 'edge://*'] } = this.props.plugin
     const userAgent =
@@ -195,6 +206,7 @@ class PluginView extends React.Component<Props> {
           onNavigationStateChange={this.onNavigationStateChange}
           onMessage={this._callbacks.onMessage}
           originWhitelist={originWhitelist}
+          key={this.state.webViewKey}
           ref={this._callbacks.setRef}
           setWebContentsDebuggingEnabled={true}
           source={{ uri: expandedUri }}

@@ -84,13 +84,15 @@ export class EdgeProvider extends Bridgeable {
   _plugin: BuySellPlugin
   _dispatch: Dispatch
   _state: State
+  restartPlugin: () => void
 
-  constructor (plugin: BuySellPlugin, state: State, dispatch: Dispatch) {
+  constructor (plugin: BuySellPlugin, state: State, dispatch: Dispatch, restartPlugin: () => void) {
     super()
     this._plugin = plugin
     this._pluginId = plugin.pluginId
     this._dispatch = dispatch
     this._state = state
+    this.restartPlugin = restartPlugin
   }
 
   updateState = (arg: any) => {

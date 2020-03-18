@@ -92,6 +92,8 @@ export const styles = {
   },
   tileIcon: {
     position: 'absolute',
+    width: rem(0.7),
+    height: rem(0.7),
     top: 10,
     right: 10
   },

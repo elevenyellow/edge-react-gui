@@ -40,17 +40,23 @@ exports[`TransactionDetails.ui should render 1`] = `
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -154,17 +160,23 @@ exports[`TransactionDetails.ui should render 1`] = `
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -260,7 +272,7 @@ exports[`TransactionDetails.ui should render 1`] = `
                 }
               }
             >
-              2667178313
+              0
               %
             </FormattedText>
           </View>
@@ -281,17 +293,23 @@ exports[`TransactionDetails.ui should render 1`] = `
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -365,17 +383,23 @@ exports[`TransactionDetails.ui should render 1`] = `
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -492,17 +516,23 @@ exports[`TransactionDetails.ui should render with negative nativeAmount and fiat
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -606,17 +636,23 @@ exports[`TransactionDetails.ui should render with negative nativeAmount and fiat
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -733,17 +769,23 @@ exports[`TransactionDetails.ui should render with negative nativeAmount and fiat
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -817,17 +859,23 @@ exports[`TransactionDetails.ui should render with negative nativeAmount and fiat
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -944,17 +992,23 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in future
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -1058,17 +1112,23 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in future
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -1164,7 +1224,7 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in future
                 }
               }
             >
-              2667178313
+              0
               %
             </FormattedText>
           </View>
@@ -1185,17 +1245,23 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in future
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -1269,17 +1335,23 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in future
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -1396,17 +1468,23 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in past 1
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -1510,17 +1588,23 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in past 1
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -1616,7 +1700,7 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in past 1
                 }
               }
             >
-              2667178313
+              0
               %
             </FormattedText>
           </View>
@@ -1637,17 +1721,23 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in past 1
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
@@ -1721,17 +1811,23 @@ exports[`TransactionDetails.ui should render with tx date off by 1000x in past 1
               }
             }
           >
-            <Icon
-              name="ios-create"
-              size={16}
-              style={
+            <Image
+              source={
                 Object {
-                  "position": "absolute",
-                  "right": 10,
-                  "top": 10,
+                  "testUri": "../../../src/assets/images/transaction_details_icon.png",
                 }
               }
-              type="ionIcons"
+              style={
+                Array [
+                  Object {
+                    "height": 16,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 10,
+                    "width": 16,
+                  },
+                ]
+              }
             />
             <FormattedText
               style={
